@@ -106,7 +106,7 @@ st.markdown("""
 """, unsafe_allow_html=True)
 
 # API Setup
-api_key = st.secrets["AIzaSyAxrUrBFEp0qbb2lVBWPe0W89iH8ztiQKI"]
+api_key = st.secrets["OPENAI_API_KEY"]
 hf_token = "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"
 
 if not api_key:
