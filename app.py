@@ -107,7 +107,7 @@ st.markdown("""
 
 # API Setup
 api_key = "AIzaSyAxrUrBFEp0qbb2lVBWPe0W89iH8ztiQKI"
-hf_token = "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"
+hf_token = HF_TOKEN
 
 if not api_key:
     st.error("Missing API_KEY environment variable.")
